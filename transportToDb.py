@@ -24,14 +24,14 @@ if not database_exists(engine.url):
 
 meta.create_all(engine)
 
-f = open("TheMeaningOfLife.txt")
-f_list = f.read().splitlines()
-print(f_list[1])
-conn = engine.connect()
-for l in f_list:
-    ins = wikilist.insert().values(headline=l)
-    # ins.bind(conn)
-    ins.compile()
-    conn.execute(ins)
+with open("TheMeaningOfLife.txt") as f:
+    f_list = f.read().splitlines()
+    print(f_list[1])
+    conn = engine.connect()
+    for l in f_list:
+        ins = wikilist.insert().values(headline=l)
+        # ins.bind(conn)
+        ins.compile()
+        conn.execute(ins)
 
 # connection.execute("commit")
