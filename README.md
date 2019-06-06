@@ -5,3 +5,7 @@
 ------
 # Impressively Pointless Wikipedia Headline Collection Tool
 This program is pointless, so pointless infact that, one would find it incredibly impressive, this README file is almost just as pointless.
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/QuarkMuncher/impressivelyPointlessWikipediaHeadlineCollectionTool/badge.svg?style=beer-square)](https://beerpay.io/QuarkMuncher/impressivelyPointlessWikipediaHeadlineCollectionTool)  [![Beerpay](https://beerpay.io/QuarkMuncher/impressivelyPointlessWikipediaHeadlineCollectionTool/make-wish.svg?style=flat-square)](https://beerpay.io/QuarkMuncher/impressivelyPointlessWikipediaHeadlineCollectionTool?focus=wish)
