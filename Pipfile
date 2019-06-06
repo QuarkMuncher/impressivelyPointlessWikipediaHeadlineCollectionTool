@@ -4,6 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+black = "*"
 
 [packages]
 beautifulsoup4 = "*"
@@ -12,6 +13,11 @@ sqlalchemy = "==1.3.3"
 sqlalchemy_utils = "*"
 mysqlclient = "*"
 python-dotenv = "*"
+pylama = "*"
+colorama = "*"
 
 [requires]
 python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
